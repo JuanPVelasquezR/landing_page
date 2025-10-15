@@ -1,0 +1,224 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+a {
+  text-decoration: none; 
+  color: #E5E7EB;
+}
+
+.top{
+    background-color: #1F2937;
+    
+}
+
+.header{
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    gap: 930px;
+    justify-content: center;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+   
+}
+
+.header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: end;
+    gap: 25px;
+    list-style: none;
+}
+
+.main-top{
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 90px 235px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+.main-text{
+    flex-direction: column;
+}
+
+#title{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    width: 400px;
+}
+
+#main-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 600px;
+    
+}
+
+#sign-up{
+  display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #0b63d6 0%, #3ea0ff 100%);
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(9,41,97,0.45), inset 0 -2px 0 rgba(255,255,255,0.03);
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    
+}
+
+#image1 img{
+    width: 700px;
+    height: 200px;
+    height: auto;        /* mantiene la relación de aspecto y evita distorsión */
+    display: block;
+    object-fit: contain; /* no recorta, mantiene toda la imagen */
+    image-rendering: auto;
+}
+
+#sign-up{
+    padding: 5px 25px;
+    border-radius:10px;
+}
+
+.information-cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 127px;
+}
+
+#info-title{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 40px;
+    padding-bottom: 60px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    align-items: flex-start;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 0, 20px;
+   
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 170px;
+    box-sizing: border-box;
+}
+
+.card img{
+    border: #3882F6 2px solid;
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+    border-radius: 15%;
+}
+
+.card-text{
+    font-size: 18px;
+    color: #4b5563;
+    text-align: center;
+}
+
+.quote_section{
+    display: flex;
+    background-color:#E5E7EB;
+    padding: 200px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300px;
+    text-align: left;
+    width: 800px;
+}
+
+.quote-author{
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 900;
+    padding-top: 10px;
+    align-items: end;
+    padding-left: 360px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding:150px;
+}
+
+.Box{
+    background-color: #3882F6;
+    color: white;
+    padding: 40px;
+    border-radius: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.box-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 400px;
+}
+.box-button{
+      display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 28px;
+    border-radius: 8px;
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid rgba(255,255,255,0.95);
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(56,130,246,0.12);
+    transition: background .18s ease, color .18s ease, transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    
+}
+
+.box-title{
+    font-weight: 700;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
