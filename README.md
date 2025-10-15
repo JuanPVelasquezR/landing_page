@@ -1,4 +1,4 @@
-# landing_page
+# Landing Lovecraft
 
 Simple static landing page built as part of The Odin Project "Foundations" exercise. Theme: Lovecraftian / cosmic horror.
 
